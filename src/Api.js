@@ -447,6 +447,22 @@ class Api {
         return this;
     };
 
+    /**
+     * Register support for the Mocha Tests.
+     *
+     * @param {string} entry
+     * @param {string} output
+     */
+    tests(src, options = {}) {
+        Config.tests = {src, options};
+
+        Verify.dependency(
+            'mocha',
+            'npm install mocha --save-dev'
+        );
+
+        return this;
+    };
 
     /**
      * Register a Webpack build event handler.

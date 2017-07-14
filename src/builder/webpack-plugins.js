@@ -5,6 +5,7 @@ let MixDefinitionsPlugin = require('../plugins/MixDefinitionsPlugin');
 let BuildCallbackPlugin = require('../plugins/BuildCallbackPlugin');
 let CustomTasksPlugin = require('../plugins/CustomTasksPlugin');
 let ManifestPlugin = require('../plugins/ManifestPlugin');
+let TestingPlugin = require('../plugins/TestingPlugin');
 let WebpackChunkHashPlugin = require('webpack-chunk-hash');
 let UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
