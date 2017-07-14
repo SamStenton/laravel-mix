@@ -1,7 +1,7 @@
 {
-  "name": "laravel-mix",
+  "name": "lilly-mix",
   "version": "1.2.0",
-  "description": "Laravel Mix is an elegant wrapper around Webpack for the 80% use case.",
+  "description": "Lilly Mix is an elegant wrapper around Webpack for the 80% use case.",
   "main": "src/index.js",
   "scripts": {
     "webpack": "NODE_ENV=development webpack --progress --hide-modules",
