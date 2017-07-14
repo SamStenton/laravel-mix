@@ -56,7 +56,7 @@ module.exports = function () {
             new WebpackNotifierPlugin({
                 title: 'Lilly Mix',
                 alwaysNotify: Mix.isUsing('notificationsOnSuccess'),
-                contentImage: Mix.paths.root('node_modules/laravel-mix/icons/lilly-mix.png')
+                contentImage: Mix.paths.root('node_modules/lilly-mix/icons/lilly-mix.png')
             })
         );
     }

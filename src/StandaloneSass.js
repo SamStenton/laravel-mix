@@ -114,9 +114,9 @@ class StandaloneSass {
 
         if (Mix.isUsing('notifications')) {
             notifier.notify({
-                title: 'Laravel Mix',
+                title: 'Lilly Mix',
                 message: 'Sass Compilation Successful',
-                contentImage: 'node_modules/laravel-mix/icons/laravel.png'
+                contentImage: 'node_modules/lilly-mix/icons/lilly-mix.png'
             });
         }
     }
@@ -136,10 +136,10 @@ class StandaloneSass {
 
         if (Mix.isUsing('notifications')) {
             notifier.notify({
-                title: 'Laravel Mix',
+                title: 'Lilly Mix',
                 subtitle: 'Sass Compilation Failed',
                 message: JSON.parse(output).message,
-                contentImage: 'node_modules/laravel-mix/icons/laravel.png'
+                contentImage: 'node_modules/lilly-mix/icons/lilly-mix.png'
             });
         }
 
